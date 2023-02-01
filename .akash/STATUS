@@ -1,0 +1,29 @@
+{
+  "services": {
+    "node": {
+      "name": "node",
+      "available": 0,
+      "total": 1,
+      "uris": [
+        "8o3k2tvcr1aor8jsl4aftvosnk.ingress.palmito.duckdns.org"
+      ],
+      "observed_generation": 1,
+      "replicas": 1,
+      "updated_replicas": 1,
+      "ready_replicas": 0,
+      "available_replicas": 0
+    }
+  },
+  "forwarded_ports": {
+    "node": [
+      {
+        "host": "provider.palmito.duckdns.org",
+        "port": 26656,
+        "externalPort": 32584,
+        "proto": "TCP",
+        "name": "node"
+      }
+    ]
+  },
+  "ips": null
+}
