@@ -5,7 +5,7 @@ services:
     image: ghcr.io/chalabi2/cosmos-omnibus/canto:latest
     expose:
       - port: 26657
-        as: 8080
+        as: 26657
         to:
           - global: true
       - port: 26656
@@ -21,7 +21,7 @@ services:
         to:
           - global: true
       - port: 8545
-        as: 8080
+        as: 8545
         to:
           - global: true
       - port: 8546
